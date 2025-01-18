@@ -1,7 +1,7 @@
 # dns-mobileconfig
 A simple website to create DoH and DoT config files for iOS. 
 
-Might also work on macOS, I don't have a way to test that currently.
+These profiles also work on iPadOS and macOS.
 
 ## About
 
@@ -9,10 +9,11 @@ Encrypted DNS is getting more and more mainstream. With the release of iOS 14, A
 
 This tool can generate these profiles from provided data and also provides some premade configurations.
 
-For more information, see the website of the tool itself: https://dns.notjakob.com
+For more information, see the website of the tool itself: https://dns.pifferi.info
 
 ## Thanks
 
+- fyr77 for the [original repository and idea](https://github.com/fyr77)
 - Eli Grey for [FileSaver.js](https://github.com/eligrey/FileSaver.js)
 - uuidjs for the [UUID JavaScript library](https://github.com/uuidjs/uuid)
 - Nathan Rajlich for [plist.js](https://github.com/TooTallNate/plist.js)
